@@ -13,7 +13,7 @@ animate();
 function init() {
   THREE.ImageUtils.crossOrigin = "Anonymous";
   camera = new THREE.PerspectiveCamera(
-    50,
+    40,
     window.innerWidth / window.innerHeight,
     0.1,
     1000
